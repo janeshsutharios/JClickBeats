@@ -46,8 +46,6 @@ class AudioManager: NSObject, ObservableObject {
         // Load sound files from Keyboard/ and Mouse/ subdirectories
         for profile in SoundProfile.sampleProfiles {
             for soundFile in profile.soundFiles {
-                // Create a system sound for demonstration
-                // In a real app, you would load custom audio files
                 if let path = Bundle.main.path(forResource: soundFile, ofType: "wav") {
                     let url = URL(fileURLWithPath: path)
                     do {
@@ -60,8 +58,6 @@ class AudioManager: NSObject, ObservableObject {
                         // Fallback to system sound if custom file not found
                     }
                 } else {
-                    // Use system sound as fallback for demonstration
-                    // In a real app, you would include your actual sound files
                     print("Sound file \(soundFile) not found, using fallback")
                 }
             }
