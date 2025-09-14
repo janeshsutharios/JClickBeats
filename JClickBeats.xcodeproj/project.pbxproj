@@ -388,6 +388,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JClickBeats/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = JClickBeats;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "KeyTicTac needs accessibility access to monitor keyboard inputs and provide sound feedback.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -430,6 +431,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JClickBeats/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = JClickBeats;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "KeyTicTac needs accessibility access to monitor keyboard inputs and provide sound feedback.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
