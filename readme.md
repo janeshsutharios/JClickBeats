@@ -21,11 +21,6 @@ A beautiful macOS application that provides satisfying mechanical keyboard sound
 - macOS 13.0 or later
 - Xcode 26.0 or later (for building from source)
 
-### Download
-1. Download the latest release from the [Releases page](https://github.com/janeshsutharios/JClickBeats/releases)
-2. Drag JClickBeats to your Applications folder
-3. Open JClickBeats (you may need to right-click and select "Open" due to macOS security settings)
-
 ### To Install directly 
 1. Download https://github.com/janeshsutharios/JClickBeats/blob/main/AppFile/JClickBeats.zip
 2. Go to System Settings → Privacy & Security
