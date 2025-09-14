@@ -15,7 +15,7 @@ import Combine
 
 class AccessibilityManager: ObservableObject {
     @Published var hasAccess: Bool = false
-    private var timer: Timer?
+    private var continuousCheckTask: Task<Void, Never>?
     
     init() {
         checkAccessibilityPermissions()
@@ -23,26 +23,38 @@ class AccessibilityManager: ObservableObject {
     }
     
     deinit {
-        timer?.invalidate()
+        continuousCheckTask?.cancel()
     }
     
     func checkAccessibilityPermissions() {
-        let options = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: false]
-        let trusted = AXIsProcessTrustedWithOptions(options as CFDictionary?)
-        DispatchQueue.main.async {
-            self.hasAccess = trusted
+        // Access the global variable in a non-isolated computed property
+        var isTrusted: Bool {
+            let promptKey = kAXTrustedCheckOptionPrompt.takeUnretainedValue()
+            let options = [promptKey: false] as CFDictionary
+            return AXIsProcessTrustedWithOptions(options)
+        }
+        // Use MainActor to ensure UI updates on main thread
+        Task { @MainActor in
+            self.hasAccess = isTrusted
         }
     }
     
     func startContinuousChecking() {
-        // Check every second until access is granted
-        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
-            guard let self = self else { return }
-            if !self.hasAccess {
-                self.checkAccessibilityPermissions()
-            } else {
-                self.timer?.invalidate()
-                self.timer = nil
+        // Cancel any existing task
+        continuousCheckTask?.cancel()
+        
+        continuousCheckTask = Task {
+            while !Task.isCancelled && !hasAccess {
+                // Check permissions every second
+                checkAccessibilityPermissions()
+                
+                // Wait for 1 second, but check for cancellation frequently
+                do {
+                    try await Task.sleep(for: .seconds(1))
+                } catch {
+                    // Task was cancelled
+                    break
+                }
             }
         }
     }
@@ -52,7 +64,6 @@ class AccessibilityManager: ObservableObject {
         NSWorkspace.shared.open(url)
         
         // Restart continuous checking
-        timer?.invalidate()
         startContinuousChecking()
     }
 }
