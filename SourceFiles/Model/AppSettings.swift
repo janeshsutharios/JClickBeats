@@ -12,7 +12,7 @@ import Combine
 class AppSettings: ObservableObject {
     @Published var volume: Double = 0.7
     @Published var isEnabled: Bool = true
-    @Published var selectedProfile: String = "Classic Typewriter"
+    @Published var selectedProfile: String = "Classic Keyboard"
     @Published var outputDevice: OutputDevice = .any
     @Published var excludedApps: [String] = []
     @Published var hasAccessibilityAccess: Bool = false

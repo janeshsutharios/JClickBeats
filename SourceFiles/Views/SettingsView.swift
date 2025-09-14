@@ -123,7 +123,7 @@ struct SettingsView: View {
                 Form {
                     Section(header: Text("Keyboard Sound Profile")) {
                         Picker("Profile", selection: Binding(
-                            get: { audioManager.currentProfile?.name ?? "Classic Typewriter" },
+                            get: { audioManager.currentProfile?.name ?? "Classic Keyboard" },
                             set: { name in
                                 if let profile = SoundProfile.sampleProfiles.first(where: { $0.name == name }) {
                                     audioManager.setProfile(profile)

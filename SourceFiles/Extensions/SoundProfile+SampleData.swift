@@ -3,7 +3,7 @@ import Foundation
 extension SoundProfile {
     static let sampleProfiles: [SoundProfile] = [
         SoundProfile(
-            name: "Classic Typewriter",
+            name: "Classic Keyboard",
             category: "Mechanical Keyboards",
             imageName: "keyboard",
             soundFiles: ["mech_key1", "mech_key2", "mech_key3", "mech_key4", "mech_key5", "mech_key6"]
