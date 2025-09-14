@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F02780A2E7597A900AABB63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92EA052E7595B7009CEC40 /* AppDelegate.swift */; };
+		4F02780B2E7597A900AABB63 /* KeyBellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92EA042E7595AA009CEC40 /* KeyBellApp.swift */; };
+		4F0278102E7597A900AABB63 /* SettingsWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92E9FD2E759553009CEC40 /* SettingsWindowManager.swift */; };
+		4F0278112E7597A900AABB63 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92E9FC2E759548009CEC40 /* AudioManager.swift */; };
+		4F0278122E7597A900AABB63 /* AccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92E9FB2E759542009CEC40 /* AccessibilityManager.swift */; };
+		4F6F955A2E75788300DD5EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F95592E75788300DD5EB3 /* Assets.xcassets */; };
+		4FA83BF42E753BFD0064E521 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4FA83BF32E753BFD0064E521 /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F6F95592E75788300DD5EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F92E9FB2E759542009CEC40 /* AccessibilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityManager.swift; sourceTree = "<group>"; };
+		4F92E9FC2E759548009CEC40 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		4F92E9FD2E759553009CEC40 /* SettingsWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowManager.swift; sourceTree = "<group>"; };
+		4F92EA042E7595AA009CEC40 /* KeyBellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBellApp.swift; sourceTree = "<group>"; };
+		4F92EA052E7595B7009CEC40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FA83BCF2E753B910064E521 /* JClickBeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JClickBeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA83BF32E753BFD0064E521 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4F0278152E7597A900AABB63 /* Exceptions for "Extensions" folder in "JClickBeats" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PrimaryButtonStyle.swift,
+				"SoundProfile+SampleData.swift",
+			);
+			target = 4FA83BCE2E753B910064E521 /* JClickBeats */;
+		};
+		4F0278162E7597A900AABB63 /* Exceptions for "Views" folder in "JClickBeats" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				ProfileCard.swift,
+				SettingsView.swift,
+				StatusMenuView.swift,
+			);
+			target = 4FA83BCE2E753B910064E521 /* JClickBeats */;
+		};
+		4F0278172E7597A900AABB63 /* Exceptions for "Model" folder in "JClickBeats" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppSettings.swift,
+				SoundProfile.swift,
+			);
+			target = 4FA83BCE2E753B910064E521 /* JClickBeats */;
+		};
+		4FA83C362E754E9C0064E521 /* Exceptions for "JClickBeats" folder in "JClickBeats" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FA83BCE2E753B910064E521 /* JClickBeats */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F92E9F82E75952D009CEC40 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F0278172E7597A900AABB63 /* Exceptions for "Model" folder in "JClickBeats" target */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F92E9FE2E75955D009CEC40 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F0278162E7597A900AABB63 /* Exceptions for "Views" folder in "JClickBeats" target */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F92EA062E7595C1009CEC40 /* Extensions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F0278152E7597A900AABB63 /* Exceptions for "Extensions" folder in "JClickBeats" target */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4FA83BD12E753B910064E521 /* JClickBeats */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FA83C362E754E9C0064E521 /* Exceptions for "JClickBeats" folder in "JClickBeats" target */,
+			);
+			path = JClickBeats;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA83BCC2E753B910064E521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F6F95C52E758E3600DD5EB3 /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4F92EA062E7595C1009CEC40 /* Extensions */,
+				4F92EA032E7595A7009CEC40 /* App */,
+				4F92E9FE2E75955D009CEC40 /* Views */,
+				4F92E9FA2E75953C009CEC40 /* Managers */,
+				4F92E9F82E75952D009CEC40 /* Model */,
+			);
+			path = SourceFiles;
+			sourceTree = "<group>";
+		};
+		4F92E9FA2E75953C009CEC40 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4F92E9FD2E759553009CEC40 /* SettingsWindowManager.swift */,
+				4F92E9FC2E759548009CEC40 /* AudioManager.swift */,
+				4F92E9FB2E759542009CEC40 /* AccessibilityManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4F92EA032E7595A7009CEC40 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4F92EA052E7595B7009CEC40 /* AppDelegate.swift */,
+				4F92EA042E7595AA009CEC40 /* KeyBellApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4FA83BC62E753B910064E521 = {
+			isa = PBXGroup;
+			children = (
+				4FA83BD12E753B910064E521 /* JClickBeats */,
+				4F6F95C52E758E3600DD5EB3 /* SourceFiles */,
+				4F6F95592E75788300DD5EB3 /* Assets.xcassets */,
+				4FA83BF32E753BFD0064E521 /* readme.md */,
+				4FA83BD02E753B910064E521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA83BD02E753B910064E521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA83BCF2E753B910064E521 /* JClickBeats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA83BCE2E753B910064E521 /* JClickBeats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA83BDA2E753B910064E521 /* Build configuration list for PBXNativeTarget "JClickBeats" */;
+			buildPhases = (
+				4FA83BCB2E753B910064E521 /* Sources */,
+				4FA83BCC2E753B910064E521 /* Frameworks */,
+				4FA83BCD2E753B910064E521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FA83BD12E753B910064E521 /* JClickBeats */,
+			);
+			name = JClickBeats;
+			packageProductDependencies = (
+			);
+			productName = KeyTicTac;
+			productReference = 4FA83BCF2E753B910064E521 /* JClickBeats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA83BC72E753B910064E521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					4FA83BCE2E753B910064E521 = {
+						CreatedOnToolsVersion = 26.0;
+						LastSwiftMigration = 2600;
+					};
+				};
+			};
+			buildConfigurationList = 4FA83BCA2E753B910064E521 /* Build configuration list for PBXProject "JClickBeats" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FA83BC62E753B910064E521;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4FA83BD02E753B910064E521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA83BCE2E753B910064E521 /* JClickBeats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA83BCD2E753B910064E521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA83BF42E753BFD0064E521 /* readme.md in Resources */,
+				4F6F955A2E75788300DD5EB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA83BCB2E753B910064E521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F02780A2E7597A900AABB63 /* AppDelegate.swift in Sources */,
+				4F02780B2E7597A900AABB63 /* KeyBellApp.swift in Sources */,
+				4F0278102E7597A900AABB63 /* SettingsWindowManager.swift in Sources */,
+				4F0278112E7597A900AABB63 /* AudioManager.swift in Sources */,
+				4F0278122E7597A900AABB63 /* AccessibilityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FA83BD82E753B910064E521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y3YTTDCR86;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FA83BD92E753B910064E521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y3YTTDCR86;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4FA83BDB2E753B910064E521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JClickBeats/JClickBeats.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3YTTDCR86;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JClickBeats/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JClickBeats;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "KeyTicTac needs accessibility access to monitor keyboard inputs and provide sound feedback.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janesh.keyTicTac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4FA83BDC2E753B910064E521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JClickBeats/JClickBeats.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3YTTDCR86;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JClickBeats/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JClickBeats;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "KeyTicTac needs accessibility access to monitor keyboard inputs and provide sound feedback.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janesh.keyTicTac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA83BCA2E753B910064E521 /* Build configuration list for PBXProject "JClickBeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA83BD82E753B910064E521 /* Debug */,
+				4FA83BD92E753B910064E521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA83BDA2E753B910064E521 /* Build configuration list for PBXNativeTarget "JClickBeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA83BDB2E753B910064E521 /* Debug */,
+				4FA83BDC2E753B910064E521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA83BC72E753B910064E521 /* Project object */;
+}
