@@ -26,6 +26,12 @@ A beautiful macOS application that provides satisfying mechanical keyboard sound
 2. Drag JClickBeats to your Applications folder
 3. Open JClickBeats (you may need to right-click and select "Open" due to macOS security settings)
 
+### To Install directly 
+1. Download https://github.com/janeshsutharios/JClickBeats/blob/main/AppFile/JClickBeats.zip
+2. Go to System Settings → Privacy & Security
+3. Scroll down to the "Security" section
+4. Click "Open Anyway" next to the JClickBeats warning
+    
 ### Build from Source
 ```bash
 git clone https://github.com/janeshsutharios/JClickBeats.git
