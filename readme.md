@@ -1,7 +1,7 @@
 # JClickBeats - README
 
 ![JClickBeats](https://img.shields.io/badge/macOS-13.0+-blue?style=for-the-badge&logo=apple)
-![Swift](https://img.shields.io/badge/Swift-5.0-orange?style=for-the-badge&logo=swift)
+![Swift](https://img.shields.io/badge/Swift-6.0-orange?style=for-the-badge&logo=swift)
 A beautiful macOS application that provides satisfying mechanical keyboard sounds and mouse click feedback as you type and click. Transform your typing experience with customizable sound profile.
 
 
