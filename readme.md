@@ -2,7 +2,7 @@
 
 ![JClickBeats](https://img.shields.io/badge/macOS-13.0+-blue?style=for-the-badge&logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange?style=for-the-badge&logo=swift)
-A beautiful macOS application that provides satisfying mechanical keyboard sounds and mouse click feedback as you type and click. Transform your typing experience with customizable sound profiles.
+A beautiful macOS application that provides satisfying mechanical keyboard sounds and mouse click feedback as you type and click. Transform your typing experience with customizable sound profile.
 
 
 ## ✨ Features
@@ -19,7 +19,7 @@ A beautiful macOS application that provides satisfying mechanical keyboard sound
 
 ### Prerequisites
 - macOS 13.0 or later
-- Xcode 14.0 or later (for building from source)
+- Xcode 26.0 or later (for building from source)
 
 ### Download
 1. Download the latest release from the [Releases page](https://github.com/janeshsutharios/JClickBeats/releases)
@@ -60,19 +60,6 @@ The app may request microphone access - this is normal for audio applications an
 5. Adjust volume using the slider
 6. Start typing to hear the mechanical keyboard sounds!
 
-### Sound Profiles
-Browse through different sound categories:
-- **Mechanical Keyboards**: Cherry MX Blue, Brown, Red, and custom switches
-- **Typewriters**: Vintage and modern typewriter sounds
-- **Electronics**: Futuristic and sci-fi sounds
-- **Fun**: Game-like and entertaining sounds
-- **Mouse Clicks**: Various mouse feedback sounds
-
-### Application-Specific Settings
-Configure different behaviors for specific apps:
-1. Open JClickBeats Settings
-2. Navigate to the "Applications" tab
-3. Add applications to the exclusion list or set custom profiles
 
 ### Hotkeys
 Default keyboard shortcuts:
@@ -84,14 +71,6 @@ Customize these in Settings → Shortcuts.
 
 ## 🛠️ Configuration
 
-### Settings Overview
-Access full settings by clicking "Settings" in the menu bar dropdown:
-
-- **General**: Enable/disable, volume control, output device selection
-- **Profiles**: Sound profile management and customization
-- **Applications**: Per-app sound settings
-- **Shortcuts**: Customize global hotkeys
-- **Advanced**: Audio processing options
 
 ### Auto-Enable Features
 Configure JClickBeats to automatically enable when:
